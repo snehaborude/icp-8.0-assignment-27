@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>  Event webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
@@ -62,5 +63,44 @@
                     <h3>₹20,000.00</h3>
                     <button type="button" onclick="btnclick()"     >Buy Now</button>
                 </div> 
-</body>
-</html>
+                <script>
+                    function change(){
+                    console.log( 'Change is occured')
+                    }
+                                        function a() {
+                                            console.log(`Mouse over event occured`)
+                                        }
+                                
+                                        function b() {
+                                            console.log(`Mouse move event occured`)
+                                        }
+                                
+                                        function c() {
+                                            console.log(`Mouse out event occured`)
+                                        }
+                                
+                                
+                                        function btnclick() {
+                                            console.log(`Button once clicked`);
+                                        }
+                    
+                                        function dbl(){
+                                            console.log(  'Button double clicked');
+                                        }
+                                        function keyPress(){
+                            console.log('keyPress()')
+                           }
+                    
+                           function keyDown(){
+                            console.log('keyDown()')
+                           }
+                    
+                           function keyUp(){ 
+                            console.log('keyUp()')
+                           }
+                    
+                    
+                                    </script>
+                            </body>
+                    </html>
+
